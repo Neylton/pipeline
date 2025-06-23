@@ -38,6 +38,6 @@ jobs:
         run: |
           mvn sonar:sonar \
             -Dsonar.projectKey=Neylton_pipeline \
-            -Dsonar.organization=Neylton \
+            -Dsonar.organization=neylton \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=$SONAR_TOKEN
