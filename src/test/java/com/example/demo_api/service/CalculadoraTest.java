@@ -43,6 +43,6 @@ public class CalculadoraTest {
     @Test
     void testeMultiplicar() {
         int res = calculadora.multiplicar(2,2);
-        Assertions.assertEquals(4, res);
+        Assertions.assertEquals(6, res);
     }
 }
