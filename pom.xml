@@ -61,7 +61,7 @@
 					</execution>
 					<execution>
 						<id>report</id>
-						<phase>prepare-package</phase>
+						<phase>verify</phase> <!-- mudou aqui -->
 						<goals>
 							<goal>report</goal>
 						</goals>
